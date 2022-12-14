@@ -1,0 +1,42 @@
+{
+    "name": "chitaric/lenvendo-test-app",
+    "description": "Test application with console commands",
+    "keywords": [
+      "package"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+      {
+        "name": "Chitaric",
+        "role": "Developer"
+      }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+      "php": "^7.2 | ^8.0",    
+      "composer-runtime-api": "^2.2",
+
+      "chitaric/lenvendo-test-commands": "^1.0"
+    },
+    "require-dev": {
+    },
+    "replace": {},
+    "suggest": {},
+    "autoload": {
+      "psr-4": {
+        "Chitaric\\Lenvendo\\App\\": [
+          "src/"
+        ]
+      }
+    },
+    "autoload-dev": {
+    },
+    "extra": {
+    },
+    "scripts": {},
+    "repositories": {
+    },
+    "config": {
+    }
+  }
